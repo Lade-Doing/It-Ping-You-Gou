@@ -1,0 +1,200 @@
+/* header制作补充start */
+.sk{
+    position: absolute;
+    top:40px;
+    left: 185px;
+    height: 31px;
+    line-height: 31px;
+    border-left: 1px solid #b1191a;
+    padding-left: 13px;
+    background-repeat: no-repeat;
+}
+.nav li{
+    float: left;
+}
+.sk_list li{
+    line-height: 45px;
+    margin: 0 30px;
+}
+.sk_list li a{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+.sk_list li a:hover{
+    color: #c81523;
+}
+.sk_con li{
+    line-height: 45px;
+    margin: 0 20px;
+}
+.sk_con li a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+/* header制作补充end */ 
+
+/* 列表页内容区域start */
+.sk_bd{
+    margin-top: 25px;
+}
+.sk_bd ul{
+    width: 1230px;
+}
+.sk_goods{
+    float: left;
+    overflow: hidden;
+    width: 288px;
+    height: 458px;
+    margin:0 12px 10px 0;
+    border: 1px solid transparent;
+}
+.sk_goods:hover{ 
+    border: 1px solid #e12228;
+}
+.sk_goods_title{
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px 0;
+}
+.sk_goods_price{
+    margin: 3px 0;
+    padding: 0 10px;
+}
+.sk_goods_price em{
+    font-size: 22px;
+    font-weight: 700;
+    color: #eb585f;
+}
+.sk_goods_price del{
+    font-size: 14px;
+    color: #a4a4a4;
+}
+.sk_goods_progress{
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.sk_goods_progress em{
+    color: #f24349;
+}
+.bar{
+    display: inline-block;
+    overflow: hidden;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.bar_in{
+    width: 87%;
+    height: 10px;
+    background-color: #f24349;
+}
+.sk_goods_buy{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ed282e;
+    color: #fff;
+    font-size: 20px;
+}
+.sk_goods_buy:hover{
+    color: #fff;
+}
+/* 列表页内容区域end */
+
+/* 电梯导航stat */
+.side{
+    position: absolute;
+    width: 9px;
+}
+/* 电梯导航end */
+
+/* 分页模块stat */
+.page{
+    margin: 40px 0;
+    text-align: center;
+}
+.page_num a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border:1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.page_num .pn_prev,
+.page_num .pn_next
+{
+    width: 83px;
+}
+.page_num .dotted{
+    border:1px solid transparent;
+    background-color: transparent;
+}
+.page_num .current{
+    border:1px solid transparent;
+    background-color: transparent;
+}
+.page_skip input{
+    width: 36px;
+    height: 36px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    transition: all 0.4s;
+}
+.page_skip input:focus{
+    width: 80px;
+    border: 1px solid skyblue;
+}
+.page_skip button{
+    width: 54px;
+    height: 36px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+/* 分页模块end */
+
+/* 导航电梯模块start */
+.side{
+    position: fixed;
+    bottom: 50%;    
+    right: 50%;
+    width: 39px;
+    margin-bottom: -100px;
+    margin-right: -670px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+.gotop a{
+    display: block;
+    width: 39px;
+    height: 39px;
+    background:url('../img/icons.png') -319px -57px;
+}
+.contact div{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    background: url('../img/icons.png') -16px -15px;
+}
+.contact{
+    position: relative;
+    width: 39px;
+    height: 39px;
+}
+/* 导航电梯模块end */

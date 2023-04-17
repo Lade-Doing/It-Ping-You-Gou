@@ -1,0 +1,389 @@
+/* 这是放首页的css文件 */
+/* main start*/
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 219px;
+    /* background: pink; */
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    /* background: pink; */
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle li:nth-child(1) {
+    background-color: #fff;
+}
+
+.circle li:hover {
+    background-color: #fff;
+}
+
+/* newsflash模块 */
+.newsflash {
+    width: 252px;
+    height: 455px;
+}
+
+.news {
+    height: 163px;
+}
+
+.new_hd {
+    height: 32px;
+    border-top: 1px solid #ccc;
+    ;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    line-height: 32px;
+    padding: 0 15px
+}
+
+.new_hd p {
+    font-size: 14px;
+}
+
+.new_hd a {
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+
+.new_bd {
+    padding: 10px 0 0 15px;
+    font-size: 12px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.new_bd li {
+    height: 24px;
+}
+
+.lifeservice {
+    /* 用来隐藏超出的范围 */
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+}
+
+.lifeservice ul {
+    /* 给ul一个比newflash一个更大的宽度，然后我们就可以
+    让li尽可能地按照我们的排序规则 */
+    width: 270px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    height: 100%;
+}
+
+.lifeservice li:hover {
+    background-color: #ccc;
+}
+
+.lifeservice p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 12px auto 10px;
+}
+
+.service_ico_hua {
+    background: url('../img/icons.png') -16px -15px;
+}
+
+.service_ico_ji {
+    background: url('../img/icons.png') -78px -16px;
+}
+
+.jian {
+    display: block;
+    position: relative;
+}
+
+.jian img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+
+.service_ico_dian {
+    background: url('../img/icons.png') -141px -16px;
+}
+
+.service_ico_you {
+    background: url('../img/icons.png') -205px -16px;
+}
+
+.service_ico_cai {
+    background: url('../img/icons.png') -16px -89px;
+}
+
+.service_ico_jia {
+    background: url('../img/icons.png') -77px -88px;
+}
+
+.service_ico_jiu {
+    background: url('../img/icons.png') -140px -88px;
+}
+
+.service_ico_huo {
+    background: url('../img/icons.png') -206px -88px;
+}
+
+.service_ico_zhong {
+    background: url('../img/icons.png') -16px -159px;
+}
+
+.service_ico_licai {
+    background: url('../img/icons.png') -78px -159px;
+}
+
+.service_ico_liping {
+    background: url('../img/icons.png') -140px -159px;
+}
+
+.service_ico_bai {
+    background: url('../img/icons.png') -206px -159px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 8px;
+}
+
+.bargin img {
+    width: 100%;
+}
+
+/* main end*/
+
+/* recommend start */
+.recommend {
+    height: 162px;
+    margin-top: 10px;
+}
+
+.recom_hd {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom_hd img {
+    /* position: absolute;
+    top: 27px;
+    left: 68px; */
+    margin: 30px 0 10px 0;
+}
+
+.recom_hd h3 {
+    /* position: absolute;
+    left: 60px;
+    bottom: 39px; */
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recom_bd {
+    float: left;
+    overflow: hidden;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom_bd ul {
+    width: 1010px;
+}
+
+.recom_bd li {
+    float: left;
+    overflow: hidden;
+    width: 249px;
+    border-right: 1px solid #dddddd;
+    margin: 9px 0;
+    transition: all 0.4s;
+}
+
+.recom_bd li:nth-last-child(1) {
+    border: none;
+}
+
+.recom_bd li:hover {
+    transform: scale(1.1);
+}
+
+/* recommend end */
+
+/* floor start */
+.box-hd {
+    height: 30px;
+    overflow: hidden;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 361px;
+    transition: all 0.4s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+.tab-con {
+    width: 1210px;
+}
+
+.tab-con li {
+    float: left;
+    height: 361px;
+    overflow: hidden;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.w209 {
+    width: 209px;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w209-hd {
+    height: 107px;
+}
+
+.w209-hd li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    margin: 0 7px;
+}
+
+.w209-bd img {
+    width: 100%;
+}
+
+/* floor end */
+
+/* fixedtool start 电梯导航 */
+.fixedtool {
+    position: fixed;
+    top: 50%;
+    width: 66px;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -700px;
+}
+
+.fixedtool li {
+    width: 58px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin: 0 4px;
+    padding: 0 2px;
+    cursor: pointer;
+}
+.fixedtool .current {
+    background-color: #c81623;
+}
+
+.fixedtool .current a {
+    color: #fff;
+}
+
+/* fixedtool end */
